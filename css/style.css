@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -192,6 +193,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
+}
+
+#intro .intro-content h3 {
+  color: #0a2161;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 400;
 }
 
 #intro .intro-content h2 span {
